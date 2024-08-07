@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.main-header {
+    background-color: #6a1b9a;
+    color: white;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu li {
+    margin-left: 8px;
+    padding: 2px 16px;
+    background-color: #5f0995;
+    border: 1px solid #9a12ef;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+.main-part {
+    background-color: rgb(226, 230, 230);
+    padding: 16px;
+}
+
+.First-Blog {
+    background-color: rgb(255, 255, 255);
+    padding: 32px 16px;
+    border-radius: 2px;
+}
+.border-top{
+    border-top: 1px solid rgb(246, 241, 241);
+}
+
+.fsection {
+    background-color: rgb(129, 12, 187);
+    justify-content: center;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    height: 8%;
+}
