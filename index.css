@@ -38,16 +38,12 @@ body {
     font-size: 18px;
 }
 
-.menu a:hover {
-    text-decoration: underline;
-}
-
 .main-part {
     background-color: rgb(226, 230, 230);
     padding: 16px;
 }
 
-.First-Blog {
+.card {
     background-color: rgb(255, 255, 255);
     padding: 32px 16px;
     border-radius: 2px;
@@ -56,11 +52,10 @@ body {
     border-top: 1px solid rgb(246, 241, 241);
 }
 
-.fsection {
+.footer {
+    color: #ffffff;
     background-color: rgb(129, 12, 187);
-    justify-content: center;
     display: flex;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    height: 8%;
+    justify-content: center;
+    align-items: center;
 }
