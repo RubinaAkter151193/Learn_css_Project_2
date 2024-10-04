@@ -48,7 +48,8 @@ body {
     padding: 32px 16px;
     border-radius: 2px;
 }
-.border-top{
+
+.border-top {
     border-top: 1px solid rgb(246, 241, 241);
 }
 
